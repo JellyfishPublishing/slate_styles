@@ -2,7 +2,35 @@
 /* ! Desktop Custom CSS   */
 /* ====================== */
 
+header {
+	background-color:#fff;
+}
 
+nav {
+    background-color: #00394a;
+}
+
+nav ul li a:hover, nav ul li a.nav-selected, nav ul li a.nav-path-selected {
+	background-color:#ff0000;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: #ff0000;
+}
+
+footer {
+	background-color:#ebebeb;
+	clear:both;
+	margin:0;
+	padding:15px 15px;
+	font-size:12px;
+	color:#666;
+}
+
+footer a:hover {
+	color:#fff;
+}
 
 /* ====================== */
 /* ! Mobile Custom CSS    */
